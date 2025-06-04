@@ -8,7 +8,7 @@ import NotFoundPage from './pages/NotFoundPage';
 
 const App = () => (
   <AuthProvider>
-    <Router>
+    <Router basename="/eCommerce-Random-Team-3">
       <Routes>
         <Route path="/main" element={<MainPage />} />
         <Route path="/login" element={<LoginPage />} />

@@ -12,7 +12,7 @@ export default {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/',
+    publicPath: '/eCommerce-Random-Team-3/',
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx'],
